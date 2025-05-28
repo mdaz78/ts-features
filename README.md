@@ -2,16 +2,41 @@
 
 This repository contains code examples and exercises from the [TypeScript: The Complete Developer's Guide](https://www.udemy.com/course/typescript-the-complete-developers-guide/) course on Udemy. It serves as a personal learning journal and reference for TypeScript concepts and features.
 
-## 🚀 Course Overview
+## 🚀 Features Covered So Far
 
-This course covers various aspects of TypeScript, including:
+### Type Annotations
 
-- Type system fundamentals
-- Advanced types and type manipulation
-- Object-oriented programming with TypeScript
-- Decorators and metadata
-- Integration with popular frameworks
-- And much more!
+- Primitive types: `string`, `number`, `boolean`
+- Special types: `null` and `undefined`
+- Arrays and objects
+- Functions and parameters
+- Type inference and when to use explicit annotations
+
+### Type Definitions
+
+- Built-in objects (like `Date`)
+- Object literals with specific shapes
+- Union types
+- Type annotations for function return values
+
+### Type Inference
+
+- TypeScript's ability to infer types
+- When type inference works well
+- Cases where explicit annotations are necessary
+
+### Common Patterns
+
+- Working with JSON data
+- Type guards and type narrowing
+- Variable initialization patterns
+
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run TypeScript compiler: `tsc`
+4. Execute the compiled JavaScript: `node dist/[filename].js`
 
 ## 📚 Resources
 
