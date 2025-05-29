@@ -29,3 +29,16 @@ console.log(divide(1, 2));
 console.log(multiply(1, 2));
 console.log(logger('Hello'));
 console.log(throwError('Error'));
+
+// destructuring with annotations
+const todaysWeather = {
+  date: new Date(),
+  weather: 'sunny',
+};
+
+const logWeather = (forecast: { date: Date; weather: string }): void => {
+  console.log(forecast.date);
+  console.log(forecast.weather);
+};
+
+logWeather(todaysWeather);
