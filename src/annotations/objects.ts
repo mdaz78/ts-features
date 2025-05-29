@@ -14,3 +14,9 @@ const profile = {
 const { age }: { age: number } = profile;
 
 console.log(age);
+
+const {
+  coords: { lat, lng },
+}: {
+  coords: { lat: number; lng: number };
+} = profile;
