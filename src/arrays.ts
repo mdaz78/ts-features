@@ -17,3 +17,8 @@ const car = carMakers[0];
 carMakers.map((car: string): string => {
   return car.toUpperCase();
 });
+
+// Multiple types in an Array
+const importantDates: (Date | string)[] = [new Date()];
+importantDates.push('2030-10-10');
+importantDates.push(new Date());
