@@ -12,12 +12,18 @@ class Vehicle {
 const vehicle = new Vehicle('yellow');
 console.log(vehicle.color);
 
-// class Car extends Vehicle {
-//   startDrivingProcess(): void {
-//     this.drive();
-//   }
-// }
+class Car extends Vehicle {
+  constructor(public wheels: number, color: string) {
+    super(color);
+  }
 
-// const car = new Car();
-// car.startDrivingProcess();
-// car.honk();
+  startDrivingProcess(): void {
+    this.drive();
+  }
+}
+
+const car = new Car(4, 'red');
+console.log(car.color);
+console.log(car.wheels);
+car.startDrivingProcess();
+car.honk();
